@@ -1814,6 +1814,15 @@ body {
     float: right !important;
     width: auto !important;
   }
+
+  .main-banner .item{
+    padding: 20px 5% 20px 5%;  
+  }
+
+  .main-banner .item h2 {
+    font-size: 45px;
+  }
+  
 }
 
 @media (max-width: 1200px) {
