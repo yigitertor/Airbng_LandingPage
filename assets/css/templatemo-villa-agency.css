@@ -130,7 +130,7 @@ body {
 }
 
 .section {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .section-heading {
@@ -642,7 +642,7 @@ Header Style
     font-weight: 400;
     color: #1e1e1e;
     background-color: #fff;
-     border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 25px 25px;
   }
   .background-header .main-nav .nav li,
   .header-area .main-nav .nav li {
@@ -686,6 +686,7 @@ Header Style
   }
   .header-area {
     padding: 0px 15px;
+    padding-bottom: 90px
     height: 80px;
     box-shadow: none;
     text-align: center;
@@ -726,8 +727,7 @@ Header Style
     background: #fff;
     padding-left: 0px !important;
     padding-right: 0px !important;
-  }
-  
+  } 
 }
 
 /* 
@@ -777,7 +777,6 @@ Banner Style
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
-  line-height: 72px;
   width: 50%;
   margin-bottom: 0px;
 }
@@ -1702,6 +1701,10 @@ body {
 }
 
 @media (max-width: 767px) {
+
+  .left-image{
+    display: none;
+  } 
   .header-area .main-nav .logo h1 {
     line-height: 80px !important;
   }
@@ -1743,13 +1746,12 @@ body {
   .header-area .main-nav .nav li:last-child a {
     padding-right: 15px;
   }
-  .main-banner .item h2 {
+  /*.main-banner .item h2 {
     width: 100%;
-  }
+  }*/
   .featured .section-heading {
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 100px;
   }
   .featured .accordion {
     margin-left: 0px;
@@ -1820,7 +1822,7 @@ body {
   }
 
   .main-banner .item h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
   
 }
